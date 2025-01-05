@@ -1,5 +1,7 @@
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +12,24 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+
+/* This contains both plant image with text*/
+.container {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  
+}
+
+/*This contains separates plants so we can put text below */
+.info{
+  max-width: 200px;
+}
+
+.text {
+  
 }
 
 /* do not edit this footer */
