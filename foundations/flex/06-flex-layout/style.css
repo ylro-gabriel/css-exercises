@@ -24,3 +24,25 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+
+/*solution*/
+/*marker*/
+* {
+  border: 2px solid red;
+}
+/*para mawala yung bullet sa list
+as well as yung space before the lists sa ul*/
+ul,li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  text-align: center;
+}
+
+
