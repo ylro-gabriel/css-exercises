@@ -55,7 +55,7 @@ body {
 
 .card {
   flex:0 ;
-  max-height: 150px;
+  max-height: 200px;
   min-width: 300px;
   padding: 5px;
 }
