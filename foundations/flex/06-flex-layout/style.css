@@ -16,6 +16,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+  margin-top: 10px;
 }
 
 input {
@@ -29,9 +31,7 @@ input {
 
 /*solution*/
 /*marker*/
-* {
-  border: 2px solid red;
-}
+
 /*para mawala yung bullet sa list
 as well as yung space before the lists sa ul*/
 ul,li{
@@ -45,4 +45,31 @@ body {
   text-align: center;
 }
 
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+ 
+  
 
+}
+
+
+.left-links , .right-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  justify-content: space-between;
+
+
+}
+
+.footer {
+  background: #eee;
+}
